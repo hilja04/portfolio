@@ -212,3 +212,13 @@ h6, .h6 {
 .copyright {
   background-color: var(--bs-tertiary);
 }
+.github-link {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  margin: 0; /* estää ylimääräiset marginaalit */
+}
+
+.card-body {
+  position: relative; /* tarvitaan absoluuttista sijoittelua varten */
+}
