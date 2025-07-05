@@ -216,9 +216,10 @@ h6, .h6 {
   position: absolute;
   bottom: 1rem;
   right: 1rem;
-  margin: 0; /* estää ylimääräiset marginaalit */
+  margin: 0; 
 }
 
 .card-body {
-  position: relative; /* tarvitaan absoluuttista sijoittelua varten */
+  position: relative; 
+  padding-bottom: 2.5rem; 
 }
